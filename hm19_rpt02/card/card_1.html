@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Square+Peg&display=swap" rel="stylesheet">
+<title>HAPPY Christmas</title>
+<style>
+h1{
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    font-size: 150px;
+    font-family: 'Square Peg', cursive;
+    color: white;
+}
+h2{
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    font-size: 100px;
+    font-family: 'Bebas Neue', cursive;
+    color: yellow;
+}
+h3{
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    font-size: 80px;
+}
+h4{
+    position: absolute;
+    left: 5%;
+    top: 70%;
+    font-size: 50px;
+    text-decoration: underline;
+}
+h5{
+    position: absolute;
+    left: 37%;
+    top: 70%;
+    font-size: 50px;
+    border: 10px solid rgb(250, 234, 19)
+}
+a{
+    position: absolute;
+    left: 5%;
+    top: 90%;
+    font-size: 50px;
+    text-decoration: none;
+}
+a:link{
+    color: black;
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+a:active{
+    color: black;
+    text-decoration: none;
+}
+img{
+    position: absolute;
+    left: 37%;
+    top: 20%;
+}
+@keyframes rudolf {
+    from{margin-top: 10%;}
+    to{margin-top:  0%;}   
+}
+#rudolf{
+    position: absolute;
+    left: 25%;
+    top:15%;
+    animation: rudolf; 
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes santa {
+    from{margin-left: 30%;}
+    to{margin-left:  0%;}   
+}
+#santa{
+    position: absolute;
+    left: 60%;
+    right: 30%;
+    top: 15%;
+    animation: santa; 
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes snowman {
+    from{margin-left: 20%;}
+    to{margin-left:  0%;}   
+}
+#snowman{
+    position: absolute;
+    left: 70%;
+    right: 30%;
+    top: 40%;
+    animation: snowman; 
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#music{
+    position: absolute;
+    left : 80%;
+    right: 10%;
+    top :90%;
+}
+body{
+    margin: 0;
+}
+.line{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(235, 114, 39);
+}
+#boxline{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+</style>
+</head>
+<body>
+<div class="line">
+    <img id="boxline" src="boxline.png" alt="테두리">
+</div>>   
+<h1>Merry Christmas!</h1>
+<h2>Welcome Inje Christmas Party!</h2> 
+<h3>We invite students<br> 
+    from Inje University<br> 
+    to attend <br>the Christmas Party 2022!!<br></h3>
+<h4>Location : Jan Yong-sil Hall<br>
+    Date : 2022-12-25</h4>
+<h5>HM19 정희서</h5>
+    <a href="https://www.inje.ac.kr/kor/about-inje/campus-map.asp" target="_blank">Campus-map(click to locate the campus map)</a>
+<img src="christmastree.png" 
+width="1000" height="1000" 
+alt="크리스마스 트리">
+<img id="rudolf" src="rudolf.png" 
+    width="750" height="900"
+    alt="루돌프">
+<img id="santa" src="santa.png" 
+    width="600" height="900" 
+    alt="산타">
+<img id="snowman" src="snowman.png" 
+    width="600" height="800" 
+    alt="눈사람">
+    <audio id="music" src="Angels We Have Heard On High.mp3" 
+    controls="controls"></audio>
+</body>
+</html>
